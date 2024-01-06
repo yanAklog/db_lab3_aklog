@@ -14,7 +14,7 @@ CREATE TABLE App
 (
   app_name VARCHAR(250) NOT NULL,
   app_size INT,
-  app_price INT,
+  app_price NUMERIC(8, 2),
   content_rating VARCHAR(50) NOT NULL,
   category_name VARCHAR(50) NOT NULL,
   PRIMARY KEY (app_name),
